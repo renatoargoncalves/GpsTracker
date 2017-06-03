@@ -1,0 +1,259 @@
+<resources>
+    <!-- Manifest -->
+    <string name="facebook_app_id">1859935487579096</string>
+    <string name="fb_login_protocol_scheme">fb1859935487579096</string>
+
+    <!-- App name -->
+    <string name="app_name">Family Locator</string>
+
+    <!-- Dialog -->
+    <string name="delete_user">Delete user</string>
+    <string name="your_contacts_will_not_be_able_to_track_each_other">The user will be deleted!</string>
+    <string name="sign_out">Sign out</string>
+    <string name="delete_place">Delete place</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+
+
+    <!-- SignInActivity -->
+    <string name="please_use_gmail_account">Please, use your Google/Gmail account</string>
+    <string name="terms_and_conditions">I accept the terms and conditions</string>
+    <string name="you_need_to_accept_the_terms_and_conditions">You need to accept the terms and conditions</string>
+    <string name="accept_terms_and_conditions">Accept_terms_and_conditions</string>
+    <string name="terms_and_conditions_title">TERMS AND CONDITIONS</string>
+    <string name="terms_1">1 - By downloading or using the app, these terms will automatically apply to you – you should make sure therefore that you read them carefully before using the app. You’re not allowed to copy, or modify the app, any part of the app, or our trademarks in any way. You’re not allowed to attempt to extract the source code of the app, and you also shouldn’t try to translate the app into other languages, or make derivative versions. The app itself, and all the trade marks, copyright, database rights and other intellectual property rights related to it, still belong to Realtest.</string>
+    <string name="terms_2">2 - We do not keep any register of your past locations in any way. We only have 1 (one) register of your last location.</string>
+    <string name="terms_3">3 - We are not responsible for inacurate locations. We use combined signals of GPS satellites, cell phone networlk and wifi to determinite the most precise location, however these signals can present variations and inacurate mesurements. You need to be aware of that.</string>
+    <string name="terms_4">4 - We are offering this app to you without any cost, however, we show ads.</string>
+    <string name="terms_5">5 - You will be allowed to use limited number of licences, that will allow you to track a limited number of people. You can increase the number by purchasing more licences. We can change the prices of the licences and the number of free licence without warning, at any time.</string>
+    <string name="terms_6">6 - We can suspend and terminate any account that we find suspicious at any time without warning.</string>
+    <string name="is_connected">is connected!</string>
+
+    <!-- Progress bar -->
+    <string name="loading_your_data">loading your data...</string>
+    <string name="loading_pictures">Loading pictures...</string>
+    <string name="progress_bar">Progress bar</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+    <string name="no_network_try_again_later">No network, try again later</string>
+    <string name="connecting">connecting...</string>
+    <string name="new_user">new user...</string>
+    <string name="this_is_taking_longer_than_usual">this is taking longer than usual...</string>
+
+    <!-- FollowersActivity -->
+    <string name="my_map">My map</string>
+    <string name="nobody_tracking_you_yet">Nobody is on your map yet...</string>
+    <string name="click">Click on the icon</string>
+    <string name="to_send_invites">to send invites.</string>
+
+    <!-- Settings Activity -->
+    <string name="settings">Settings</string>
+    <string name="change">change</string>
+    <string name="profile">Profile:</string>
+    <string name="dialog_change_profile_name_title">Change name</string>
+    <string name="type_your_name">Type your name:</string>
+    <string name="invalid_name">Name is invalid!</string>
+
+
+    <!-- Main activity -->
+    <string name="logout_message">Log out from Locator?</string>
+    <string name="thank_you">Thank you!</string>
+    <string name="show_google_plus_button">show_google_plus_button</string>
+    <string name="how_to_type_codes_1">Invitation codes!</string>
+    <string name="how_to_type_codes_2">- Type your invitation codes to accept invitations from other users.</string>
+    <string name="textView_quick_search_1">Find people quickly!</string>
+    <string name="textView_quick_search_2">Click on the search icon and go forward to the person you want to zoom in.</string>
+    <string name="preference_file_key">com.sow.gpstracker.shared_prefs</string>
+    <string name="show_add_user_tutorial">show_add_user_tutorial</string>
+    <string name="place_hint">Ex.: My home</string>
+    <string name="update">Update</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9665998162830641/9275635409</string>
+    <string name="save">SAVE</string>
+    <string name="delete">DELETE</string>
+    <string name="premium">Premium</string>
+    <string name="free">Free</string>
+
+    <!-- MyApplication -->
+    <string name="signned_out">Signed out from Locator</string>
+    <string name="please_turn_your_gps_on">Please turn on your GPS to sign in</string>
+    <string name="arrived">arrived at:</string>
+    <string name="left">left:</string>
+
+    <!-- Invite activity -->
+    <string name="send_invite">Send invite</string>
+
+    <!-- ManagePlacesActivity -->
+    <string name="manage_locals">Manage places</string>
+    <string name="there_are_no_places">There are no places set!</string>
+    <string name="to_add_places">to add places.</string>
+
+    <!-- PlaceDetailsActivity -->
+    <string name="created_by">Created by:</string>
+    <string name="place">Place:</string>
+    <string name="area">Area:</string>
+    <string name="place_details">Place details</string>
+    <string name="show_this_place_on_my_map">Show this place in my map</string>
+    <string name="show_notification_from_this_place">Show notifications from this place</string>
+    <string name="place_delete_successfull">The place %s was deleted</string>
+
+    <!-- Main menu -->
+    <string name="search">Search</string>
+    <string name="places">Add places</string>
+
+    <!-- Navigation Menu -->
+    <string name="manage_followers">Manage users</string>
+    <string name="logout">Log out</string>
+    <string name="confirm_delete_place">The place %s will be deleted.</string>
+
+    <!-- Presentation slides -->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="letsgo">let´s go...</string>
+    <string name="textView_1_slide_1">Hi!</string>
+    <string name="textView_2_slide_1">Locator lets you see the location of your family members and friends in real-time!</string>
+    <string name="textView_1_slide_2">Know what they are doing!</string>
+    <string name="textView_2_slide_2">See if they are walking, running, biking or in a vehicle!</string>
+    <string name="textView_1_slide_3">Receive notifications!</string>
+    <string name="textView_2_slide_3">Receive notifications when your contacts enter or leave a place!</string>
+    <string name="how_to_add_users_1">Invite people!</string>
+    <string name="how_to_add_users_2">Click on the icon to add people on your map:\n\n- Friends\n- Family\n- Anybody!</string>
+    <string name="textView_add_places_ok_got_it">OK!</string>
+    <string name="how_to_add_places_1">Create places!</string>
+    <string name="how_to_add_places_2">Receive notifications when people arrive or leave:\n\n- Home\n- Work\n- School</string>
+
+    <!-- Help Activity -->
+    <string name="help">Help</string>
+
+    <!-- Help 0 -->
+    <string name="how_it_works">- How it works?</string>
+    <string name="how_it_works_1">Locator lets you see the location of other users on the map in real time.</string>
+    <string name="how_it_works_2">- Invite people to your map by clicking on the "add users" icon on the main screen. You will send an invitation message to another user with a code.</string>
+    <string name="how_it_works_3">- When a user accepts your invitation, he will appear on your map automatically. He will be able to see your location on his map as well.</string>
+    <string name="how_it_works_4">- Create places (geographic areas) on the map. You can define places of your interest like your home, school or work. When you enter or leave those places your contacts will be notified.</string>
+    <string name="how_it_works_5">- See if your contacts are still or moving. Locator tries to detect the user´s activity: walking, running, on a bike or vehicle.</string>
+
+    <!-- Help 1 -->
+    <string name="how_to_add_users_on_the_map">- How to invite people to my map?</string>
+    <string name="how_to_add_users_on_the_map_1">1 - In the main screen, click on the \"add users\" icon:</string>
+    <string name="how_to_add_users_on_the_map_2">2 - You will see the invitation code and options on how to send it:</string>
+    <string name="how_to_add_users_on_the_map_3">3 - Select the way and the user you want to send the invitation code, for example, send to Joey using Whatsapp:</string>
+    <string name="how_to_add_users_on_the_map_4">4 - You will send a message that contains the invitation code and a link to download or open Locator:</string>
+    <string name="how_to_add_users_on_the_map_5">5 - Done! That is all you need to invite another to appear on your map!</string>
+    <string name="how_to_add_users_on_the_map_6">Tip: Check how to accept an invitation code from other people!</string>
+
+    <!-- Help 2 -->
+    <string name="how_to_accept_invitations">- How to accept invitations?</string>
+    <string name="how_to_accept_invitations_1">1 - In the main screen, click on the \"menu\" icon:</string>
+    <string name="how_to_accept_invitations_2">2 - You will see the item \"Type invitation code\", click on it:</string>
+    <string name="how_to_accept_invitations_3">3 - Type the invitation code you received in \"Invitation code\" field:</string>
+    <string name="how_to_accept_invitations_4">- Done!</string>
+    <string name="how_to_accept_invitations_5">Now you can see the person who invited you on the map and vice-versa.</string>
+
+    <!-- Help 3 -->
+    <string name="how_to_add_places_on_the_map">- How to add places on the map?</string>
+    <string name="how_to_add_places_on_the_map_1">1 - Click on the \"add place\" icon in the main screen:</string>
+    <string name="how_to_add_places_on_the_map_2">2 - The \"places panel\" will appear:</string>
+    <string name="how_to_add_places_on_the_map_3">3 - Give a name to the place you want to create:</string>
+    <string name="how_to_add_places_on_the_map_4">4 - Set the radius of the new place:</string>
+    <string name="how_to_add_places_on_the_map_5">5 - Adjust the correct location:</string>
+    <string name="how_to_add_places_on_the_map_6">6 - Click on the \"SAVE\" button and the place will be added on your map:</string>
+    <string name="how_to_add_places_on_the_map_7">That´s all! Now when your contacts arrive or leave this place you will receive a notification.</string>
+
+    <!-- Help 4 -->
+    <string name="icon_does_not_update_1">- Why my contacts don´t move?</string>
+    <string name="icon_does_not_update_2">There are 2 possibilities:</string>
+    <string name="icon_does_not_update_3">1 - The most common cause is when there is no Internet connection on your contact´s phone;</string>
+    <string name="icon_does_not_update_4">2 - Another cause is \"Battery saver\" settings on your contact´s phone:</string>
+    <string name="icon_does_not_update_5">Ask your contact to check if his phone has a \"Battery saver\" or \"Task manager\" app. These kind of apps usually block Locator from running in background and due to that the location does not update correctly.</string>
+    <string name="icon_does_not_update_6">How to solve this issue: Configure the \"Battery saver\" or \"Task manager\" giving permission to Locator run in background.</string>
+
+    <!-- Help 5 -->
+    <string name="why_precision_is_bad_1">- Why the location is not accurate?</string>
+    <string name="why_precision_is_bad_2">- To improve the GPS accuracy, keep your wifi turned on even when you are not using it.</string>
+    <string name="why_precision_is_bad_3">- The accuracy may vary depending on the place you are. If you are inside a building you may experience poor accuracy in your location. When you are in a place with bad cellphone signal you may also experience bad accuracy.</string>
+
+    <!-- Panel user details -->
+    <string name="now">now</string>
+    <string name="minutes_ago">%d minutes ago</string>
+    <string name="hours_ago">%d hours ago</string>
+    <string name="days_ago">%d days ago</string>
+    <string name="on">on</string>
+    <string name="off">off</string>
+
+
+    <!-- Navigation drawer -->
+    <string name="user">User:</string>
+    <string name="version">App version:</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="management">Management</string>
+    <string name="rate_this_app">Rate this app!</string>
+    <string name="more">more...</string>
+
+    <!-- premium -->
+    <string name="become_premium">Become premium!</string>
+    <string name="purchase_premium">Purchase Locator Premium</string>
+    <string name="inapp_1">In order to add more than 2 users and 1 place on your map you need to purchase Locator premium</string>
+    <string name="advantages">Advantages:</string>
+    <string name="inapp_2">- Unlimited users on the map!\n- Unlimited places!\n- No more ads!</string>
+    <string name="purchase_not_completed">Purchase not completed</string>
+    <string name="purchase_completed_successfully">Purchase completed successfully!</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="enjoy_premium_1">Enjoy your Locator premium!</string>
+    <string name="enjoy_premium_2">Now you can add unlimited users and places!</string>
+    <string name="enjoy_premium_3">No more ads!</string>
+    <string name="interrogation_mark">\?</string>
+
+    <string name="searchable">Search...</string>
+    <string name="number_of_executions">count</string>
+
+    <!-- invitation message -->
+    <string name="invitation_message1">Hi!\n\nI am using Locator App and it is cool!</string>
+    <string name="invitation_message2">I would like to invite you.</string>
+    <string name="invitation_message3">Invitation code:</string>
+    <string name="invitation_message4">Open or install the app:</string>
+    <string name="type_invitation_code">Type invitation code</string>
+    <string name="invitation_code">Invitation code</string>
+    <string name="done">DONE</string>
+    <string name="searching_for_invitation">searching for invitation...</string>
+    <string name="invalid_invitation_code">Invitation code not found. Check your code or ask a new one to the person that has invited you.</string>
+    <string name="invitation_found">Invite found!</string>
+    <string name="invitation_code_desc">Send this unique invitation code to only 1 person.</string>
+    <string name="now_you_can_send_more_invitations">Now you can send more invitations!</string>
+    <string name="send_more_invitations">Send more invitations</string>
+
+    <!-- Purchase completed -->
+    <string name="activate_premium">Activate premium version</string>
+
+    <!-- InAppBillingActivity -->
+    <string name="item_already_owned">You already own this item!</string>
+
+    <!-- HandlePictureActivity -->
+    <string name="could_not_update">Sorry, not possible to update...</string>
+    <string name="change_picture">Change picture</string>
+    <string name="crop">CROP</string>
+
+    <!-- RateThisAppActivity -->
+    <string name="please_give_5_stars">Rate us with 5 stars :) ?</string>
+    <string name="follow_us_on_facebook">Follow us on Facebook!</string>
+    <string name="recomend_us_on_google">Recommend us on Google?</string>
+    <string name="places_must_have_3_digits">Place names must have 3 characters or more!</string>
+    <string name="please_rate_5_stars">Scroll down to rate!</string>
+
+    <string name="important">IMPORTANT!</string>
+    <string name="running_alert_background_text_1">In order to work correctly, Family Locator needs permission to:\n\n<b>- Auto-start\n- Run in background</b></string>
+    <string name="running_alert_background_text_2">Adjust your Battery Saver (or Task Manager) to allow Family Locator to run correctly.</string>
+    <string name="running_alert_background_text_3">Check the Help section to learn more.</string>
+    <string name="dont_show_again">do not show again</string>
+    <string name="checkbox_alert_background_dont_show_again">checkbox_alert_background_dont_show_again</string>
+
+    <string name="textView_bubble">Click on this icon to invite users to your map!</string>
+    <string name="undefined">Undefined</string>
+    <string name="invite_1">Say or send this invitation code to the person you want to add to your map.</string>
+    <string name="invite_2">To accept your invitation, they must enter a code that you will send when you click the button below:</string>
+    <string name="invitation_sent_1">The person you invited will appear on your map after accepting your invitation.</string>
+    <string name="invitation_sent_2">The invitation will be accepted through the code:</string>
+    <string name="invitation_sent">Invitation!</string>
+    <string name="phone_model">phone_model</string>
+    <string name="real_time_location_system">Real-time\nLocation System</string>
+    <string name="first_execution_after_install">first_execution_after_install</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flInitialActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sow.gpstrackerpro.InitialActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_initial"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:elevation="@dimen/appbar_default_elevation"
+            android:title="@string/app_name"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+        <fragment
+            android:id="@+id/map"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/toolbar_initial"
+            tools:layout="@layout/map_marker" />
+
+
+        <RelativeLayout
+            android:id="@+id/rlFragmentContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar_initial"
+            android:layout_margin="32sp"
+            android:background="@null"
+            android:visibility="visible">
+
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

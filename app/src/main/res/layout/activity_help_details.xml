@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_help_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sow.gpstrackerpro.HelpDetails">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_help_details"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_help_details">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textView_help_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="This is the title"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
+
+            <TextView
+                android:id="@+id/textView_help_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Bla bla bla bla bla bla"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView_help_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textView_help_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Bla bla bla bla bla bla"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView_help_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textView_help_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Bla bla bla bla bla bla"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView_help_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textView_help_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Bla bla bla bla bla bla"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView_help_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textView_help_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Bla bla bla bla bla bla"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView_help_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textView_help_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Bla bla bla bla bla bla"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView_help_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textView_help_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Bla bla bla bla bla bla"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView_help_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/textView_help_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Bla bla bla bla bla bla"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Body2" />
+
+            <ImageView
+                android:id="@+id/imageView_help_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

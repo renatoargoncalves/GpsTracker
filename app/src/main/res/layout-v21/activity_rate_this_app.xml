@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rate_this_app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context="com.sow.gpstrackerpro.RateThisAppActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_rate"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    <TextView
+        android:id="@+id/textView_rate_5_stars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar_rate"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="@string/please_give_5_stars"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/textView_rate_5_stars"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout_google_play"
+        android:gravity="center_vertical|center_horizontal">
+
+        <ImageView
+            android:id="@+id/imageView_google_play"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/google_play_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rate_this_app"
+            android:layout_marginLeft="8dp"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_follow_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout_google_play"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/follow_us_on_facebook"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView_follow_facebook"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/btnLoginToLike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/com_facebook_button_like_background"
+            android:clickable="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7.5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="7.5dp"
+                android:src="@drawable/com_facebook_button_icon" />
+
+            <TextView
+                android:id="@+id/tvLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="8dp"
+                android:text="Login"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <com.facebook.share.widget.LikeView
+            android:id="@+id/likeView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_follow_facebook"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_recommend_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout_facebook"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/recomend_us_on_google"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+
+    <com.google.android.gms.plus.PlusOneButton xmlns:plus="http://schemas.android.com/apk/lib/com.google.android.gms.plus"
+        android:id="@+id/plus_one_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_recommend_google"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="16dp"
+        android:foregroundGravity="center_horizontal"
+        android:visibility="visible"
+        plus:annotation="inline"
+        plus:size="standard" />
+
+
+    <TextView
+        android:id="@+id/textView_thank_you"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/plus_one_button"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center_horizontal"
+        android:text="@string/thank_you"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_logo"
+        android:layout_margin="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/textView_nav_header_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Renato Augusto Rezende Gonçalves"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+
+
+        <TextView
+            android:id="@+id/textView_nav_header_user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Renato Augusto Rezende Gonçalves"
+            android:textColor="@color/lightGray"
+            android:textStyle="italic"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/textView_nav_header_app_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="v. 0414"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:textSize="10sp"
+            android:gravity="right"
+            android:layout_marginRight="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="undefined">Undefined</string>
+    <string name="invite_1">Other people appear on your map when they accept your invitation.</string>
+    <string name="invite_2">Para aceitar seu convite, elas precisam digitar um         código que você enviará</string>
+    <string name="invitation_sent_1">The person you invited will appear on your map after accepting your invitation.</string>
+    <string name="invitation_sent_2">The invitation will be accepted through the code:</string>
+    <string name="invitation_sent">Invitation!</string>
+    <string name="phone_model">phone_model</string>
+    <string name="real_time_location_system">Real-time\nLocation System</string>
+    <string name="first_execution_after_install">first_execution_after_install</string>
+</resources>

@@ -1,0 +1,258 @@
+<resources>
+    <!-- Manifest -->
+    <string name="facebook_app_id">1859935487579096</string>
+    <string name="fb_login_protocol_scheme">fb1859935487579096</string>
+
+    <!-- App name -->
+    <string name="app_name">Localizador de família</string>
+
+    <!-- Dialog -->
+    <string name="delete_user">Apagar usuário</string>
+    <string name="your_contacts_will_not_be_able_to_track_each_other">Vocês não poderão ver um ao outro.</string>
+    <string name="sign_out">Desconectar</string>
+    <string name="delete_place">Apagar local</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCELAR</string>
+
+
+
+    <!-- SignInActivity -->
+    <string name="please_use_gmail_account">Por favor, use sua conta Google/Gmail</string>
+    <string name="terms_and_conditions">Eu aceito os termos e condições</string>
+    <string name="you_need_to_accept_the_terms_and_conditions">Você precisa aceitar os termos e condições</string>
+    <string name="accept_terms_and_conditions">Accept_terms_and_conditions</string>
+    <string name="terms_and_conditions_title">Termos e condições</string>
+    <string name="terms_1">1 - Ao fazer login (conectar) neste aplicativo estes termos se aplicarão a você – esteja ciente disso antes de usar o aplicativo. Você não tem permissão para copiar ou modificar o aplicativo, qualquer parte do aplicativo ou nossas marcas, de nenhuma forma. Você não tem permissão para extrair o código fonte do aplicativo, traduzir o aplicativo para outros idiomas ou fazer versões derivadas. Este aplicativo e todas as suas marcas registradas, direito de cópia, bancos de dados e outras propriedades intelectuais relacionadas a ele pertencem a Realtest.</string>
+    <string name="terms_2">2 - Nós não armazenamos registros das localizações passadas. Nós possuímos apenas 1 (um) registro que corresponde a sua última localização.</string>
+    <string name="terms_3">3 - Não somos responsáveis por localizações imprecisas. Nós usamos sinais combinados de satélite, redes de celular e wifi para determinar a localização mais precisa, contudo esses sinais apresentam variações que fogem ao nosso controle. Esteja ciente disso.</string>
+    <string name="terms_4">4 - Estamos oferencendo esse aplicativo para você sem custos, contudo, nós exibimos propagandas.</string>
+    <string name="terms_5">5 - Você terá direito a usar uma certa quantidade de licenças que permitirão localizar um determinado número de pessoas. Você poderá aumentar o número de licenças. Nos reservamos ao direito de alterar o número de licenças, preços e condições a qualquer momento.</string>
+    <string name="terms_6">6 - Nos reservamos ao direito de suspender e banir contas que considerarmos suspeitas a qualquer momento, sem aviso prévio.</string>
+    <string name="is_connected">está conectado!</string>
+
+    <!-- Progress bar -->
+    <string name="loading_your_data">carregando suas informações...</string>
+    <string name="loading_pictures">carregando fotos...</string>
+    <string name="progress_bar">Progress bar</string>
+    <string name="something_went_wrong">Algo saiu errado...</string>
+    <string name="no_network_try_again_later">Sem conexão de dados, tente novamente mais tarde.</string>
+    <string name="connecting">conectando...</string>
+    <string name="new_user">novo usuário...</string>
+    <string name="this_is_taking_longer_than_usual">isso está demorando mais do que o normal...</string>
+
+    <!-- FollowersActivity -->
+    <string name="my_map">Meu mapa</string>
+    <string name="nobody_tracking_you_yet">Ainda não há ninguem no seu mapa...</string>
+    <string name="click">Clique no ícone</string>
+    <string name="to_send_invites">para enviar convites.</string>
+
+    <!-- Settings Activity -->
+    <string name="settings">Configurações</string>
+    <string name="change">trocar</string>
+    <string name="profile">Perfil:</string>
+    <string name="dialog_change_profile_name_title">Change name</string>
+    <string name="type_your_name">Digite seu nome:</string>
+    <string name="invalid_name">Nome inválido!</string>
+
+    <!-- Main activity -->
+    <string name="logout_message">Sair do Localizador?</string>
+    <string name="thank_you">Obrigado!</string>
+    <string name="show_google_plus_button">show_google_plus_button</string>
+    <string name="how_to_type_codes_1">Códigos de convite</string>
+    <string name="how_to_type_codes_2">Digite seus códigos de convite para aceitar convites de outros usuários.</string>
+    <string name="textView_quick_search_1">Encontre pessoas rapidamente!</string>
+    <string name="textView_quick_search_2">Clique no ícone de busca e se aproxime da pessoa que você quer diretamente.</string>
+    <string name="preference_file_key">com.sow.gpstracker.shared_prefs</string>
+    <string name="show_add_user_tutorial">show_add_user_tutorial</string>
+    <string name="place_hint">Ex.: Minha casa</string>
+    <string name="update">Atualizar</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9665998162830641/9275635409</string>
+    <string name="save">GRAVAR</string>
+    <string name="delete">APAGAR</string>
+    <string name="premium">Premium</string>
+    <string name="free">Grátis</string>
+
+    <!-- MyApplication -->
+    <string name="signned_out">Desconectado do Localizador de família</string>
+    <string name="please_turn_your_gps_on">Por favor, ligue seu GPS</string>
+    <string name="arrived">chegou em:</string>
+    <string name="left">saiu de:</string>
+
+    <!-- Invite activity -->
+    <string name="send_invite">Enviar convite</string>
+
+    <!-- ManagePlacesActivity -->
+    <string name="manage_locals">Gerenciar locais</string>
+    <string name="there_are_no_places">Não há nenhum local definido!</string>
+    <string name="to_add_places">para criar locais.</string>
+
+    <!-- PlaceDetailsActivity -->
+    <string name="created_by">Criado por:</string>
+    <string name="place">Local:</string>
+    <string name="area">Área:</string>
+    <string name="place_details">Detalhes do local</string>
+    <string name="show_this_place_on_my_map">Mostrar esse local no meu mapa</string>
+    <string name="show_notification_from_this_place">Mostrar notificações deste lugar</string>
+    <string name="place_delete_successfull">O local %s foi apagado</string>
+
+    <!-- Main menu -->
+    <string name="search">Buscar</string>
+    <string name="places">Adicionar locais</string>
+
+    <!-- Navigation Menu -->
+    <string name="manage_followers">Gerenciar usuários</string>
+    <string name="logout">Sair</string>
+    <string name="confirm_delete_place">O local %s será apagado</string>
+
+    <!-- Presentation slides -->
+    <string name="next">PRÓXIMO</string>
+    <string name="skip">PULAR</string>
+    <string name="letsgo">vamos lá...</string>
+    <string name="textView_1_slide_1">Olá!</string>
+    <string name="textView_2_slide_1">Com o Localizador você vê a localização dos seus familiares e amigos em tempo real!</string>
+    <string name="textView_1_slide_2">Saiba o que estão fazendo!</string>
+    <string name="textView_2_slide_2">Saiba se seus familiares estão parados, caminhando, corrento, de bike ou em veículo!</string>
+    <string name="textView_1_slide_3">Receba notificações!</string>
+    <string name="textView_2_slide_3">Seja notificado quando seus contatos entrem ou saiam de um lugar!</string>
+    <string name="how_to_add_users_1">Convide pessoas!</string>
+    <string name="how_to_add_users_2">Clique no ícone para adicionar pessoas no seu mapa:\n\n- Amigos\n- Família\n- Qualquer pessoa!</string>
+    <string name="textView_add_places_ok_got_it">OK!</string>
+    <string name="how_to_add_places_1">Crie lugares!</string>
+    <string name="how_to_add_places_2">- Casa\n- Trabalho \n- Escola. \n\nReceba notificações quando alguém chegar ou sair destes lugares.</string>
+
+    <!-- Help Activity -->
+    <string name="help">Ajuda</string>
+
+    <!-- Help 0 -->
+    <string name="how_it_works">- Como funciona?</string>
+    <string name="how_it_works_1">O Localizador permite que você veja a localização de outro usuário em tempo real no mapa.</string>
+    <string name="how_it_works_2">- Convide outras pessoas para o seu mapa clicando no ícone "adicionar usuário" na tela principal. Você enviará uma mensagem com um código de convite para o outro usuário.</string>
+    <string name="how_it_works_3">- Quando o outro usuário aceitar seu convite, ele aparecerá no seu mapa automaticamente. O outro usuário também poderá ver sua localização no mapa dele.</string>
+    <string name="how_it_works_4">- Crie lugares (áreas geográficas) no mapa. Você pode criar locais de seu interesse como sua casa, escola ou trabalho. Quando algum de seus contatos entrar ou sair desses locais você receberá uma notificação.</string>
+    <string name="how_it_works_5">- Veja se seus contatos estão parados ou em movimento. O Localizador tenta detectar a atividade do usuário: andando, correngo, de bicicleta ou veículo.</string>
+
+    <!-- Help 1 -->
+    <string name="how_to_add_users_on_the_map">- Como convidar pessoas para o meu mapa?</string>
+    <string name="how_to_add_users_on_the_map_1">1 - Na tela principal, clique no ícone \"adicionar usuários\":</string>
+    <string name="how_to_add_users_on_the_map_2">2 - Você verá um código de convite e opções de como enviá-lo:</string>
+    <string name="how_to_add_users_on_the_map_3">3 - Selecione a forma de envio do código de convite, por exemplo, enviar para Joey usando Whatsapp:</string>
+    <string name="how_to_add_users_on_the_map_4">4 - Você enviará uma mensagem que contém o código de convite e o link para fazer download ou abrir o Localizador:</string>
+    <string name="how_to_add_users_on_the_map_5">5 - Pronto! Isso é tudo que você precisa fazer para convidar pessoas para o seu mapa!</string>
+    <string name="how_to_add_users_on_the_map_6">Dica: Veja também como aceitar convites de outras pessoas usando o código de convite!</string>
+
+    <!-- Help 2 -->
+    <string name="how_to_accept_invitations">- Como aceitar convites?</string>
+    <string name="how_to_accept_invitations_1">1 - Na tela principal, clique no ícone \"menu\":</string>
+    <string name="how_to_accept_invitations_2">2 - No menu, clique na opção \"Digitar código convite\":</string>
+    <string name="how_to_accept_invitations_3">3 - Digite o código de convite que você recebeu no campo \"Código de convite\":</string>
+    <string name="how_to_accept_invitations_4">- Pronto!</string>
+    <string name="how_to_accept_invitations_5">Agora você pode ver quem te convidou no mapa e vice-versa.</string>
+
+    <!-- Help 3 -->
+    <string name="how_to_add_places_on_the_map">- Como adicionar locais no mapa?</string>
+    <string name="how_to_add_places_on_the_map_1">1 - Clique no ícone \"adicionar local\" na tela principal:</string>
+    <string name="how_to_add_places_on_the_map_2">2 - O \"painel de locais\" aparecerá:</string>
+    <string name="how_to_add_places_on_the_map_3">3 - Dê um nome para o local que você quer criar:</string>
+    <string name="how_to_add_places_on_the_map_4">4 - Especifique o raio deste local (tamanho):</string>
+    <string name="how_to_add_places_on_the_map_5">5 - Ajuste a posição correta:</string>
+    <string name="how_to_add_places_on_the_map_6">6 - Clique no botão \"GRAVAR\" e o local será adicionado no seu mapa:</string>
+    <string name="how_to_add_places_on_the_map_7">Pronto! Agora quando seus contatos entrarem ou sairem deste local você receberá uma notificação.</string>
+
+    <!-- Help 4 -->
+    <string name="icon_does_not_update_1">- Porque meus contatos não se movem?</string>
+    <string name="icon_does_not_update_2">Existem 2 possibilidades:</string>
+    <string name="icon_does_not_update_3">1 - A causa mais comum é quando não há conexão de Internet no telefone do seu contato;</string>
+    <string name="icon_does_not_update_4">2 - Outra causa comum é a configuração de \"Economia de bateria\" no telefone do seu contato:</string>
+    <string name="icon_does_not_update_5">Peça para o seu contato verificar se o telefone dele possui algum aplicativo de \"Economia de bateria\" ou \"Gerenciador de taregas\". Esse tipo de aplicativo pode bloquear o Localizador de ser executado em segundo plano e consequentemente fazer atualizações de localização corretamente.</string>
+    <string name="icon_does_not_update_6">Como resolver este problema: Configure o  \"Economizador de bateria\" ou \"Gerenciador de tarefas\" para dar permissão para o Localizador ser executado em segundo plano e poder inicializar automaticamente.</string>
+
+    <!-- Help 5 -->
+    <string name="why_precision_is_bad_1">- Porque a localização não esta precisa?</string>
+    <string name="why_precision_is_bad_2">- Para melhorar a precisão da sua localização mantenha seu wifi ligado mesmo quando não estiver usando.</string>
+    <string name="why_precision_is_bad_3">- A precisão pode variar dependendo do lugar onde você está. Se você está dentro de uma construção você pode ter problemas de precisão. Quando você está em uma área com sinal de celular fraco você também pode experimentar falta de precisão na sua localização.</string>
+
+    <!-- Panel user details -->
+    <string name="now">agora</string>
+    <string name="minutes_ago">há %d minuto(s)</string>
+    <string name="hours_ago">há %d hora(s)</string>
+    <string name="days_ago">há %d dia(s)</string>
+    <string name="on">lig.</string>
+    <string name="off">desl.</string>
+
+    <!-- Navigation drawer -->
+    <string name="user">Usuário:</string>
+    <string name="version">Versão do app:</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="management">Gerenciamento</string>
+    <string name="rate_this_app">Avalie este aplicativo!</string>
+    <string name="more">mais...</string>
+
+    <!-- premium -->
+    <string name="become_premium">Torne-se premium!</string>
+    <string name="purchase_premium">Comprar Versão Premium</string>
+    <string name="inapp_1">Para adicionar mais de 2 contatos e 1 local você precisa comprar o Localizador premium.</string>
+    <string name="advantages">Vantagens:</string>
+    <string name="inapp_2">- Usuários ilimitados no mapa!\n- Locais ilimitados!\n- Sem anúncios!</string>
+    <string name="purchase_not_completed">A compra não pode ser feita.</string>
+    <string name="purchase_completed_successfully">Compra realizada com sucesso!</string>
+    <string name="congratulations">Parabéns!</string>
+    <string name="enjoy_premium_1">Aproveite seu Localizador premium!</string>
+    <string name="enjoy_premium_2">Agora você pode adicionar usuários e locais ilimitados!</string>
+    <string name="enjoy_premium_3">Sem anúncios!</string>
+    <string name="interrogation_mark">\?</string>
+
+    <string name="searchable">Buscando...</string>
+    <string name="number_of_executions">count</string>
+
+    <!-- invitation message -->
+    <string name="invitation_message1">Oi!\n\nEstou usando o app Localizador e é bem legal!</string>
+    <string name="invitation_message2">Eu gostaria de convidar você.</string>
+    <string name="invitation_message3">Código de convite:</string>
+    <string name="invitation_message4">Abra ou instale o app:</string>
+    <string name="type_invitation_code">Digitar código de convite</string>
+    <string name="invitation_code">Código de convite:</string>
+    <string name="done">PRONTO</string>
+    <string name="searching_for_invitation">buscando convite...</string>
+    <string name="invalid_invitation_code">Convite não encontrado. Verifique seu código ou peça outro convite para a pessoa que te convidou.</string>
+    <string name="invitation_found">Convite encontrado!</string>
+    <string name="invitation_code_desc">Envie este código de convite somente para 1 pessoa.</string>
+    <string name="now_you_can_send_more_invitations">Agora você pode enviar mais convites!</string>
+    <string name="send_more_invitations">Enviar mais convites</string>
+
+    <!-- Purchase completed -->
+    <string name="activate_premium">Ativar versão premium</string>
+
+    <!-- InAppBillingActivity -->
+    <string name="item_already_owned">Você já possui este item!</string>
+
+    <!-- HandlePictureActivity -->
+    <string name="could_not_update">Não é possível atualizar...</string>
+    <string name="change_picture">Trocar foto</string>
+    <string name="crop">CORTAR</string>
+
+    <!-- RateThisAppActivity -->
+    <string name="please_give_5_stars">Classificaria com 5 estrelas :) ?</string>
+    <string name="follow_us_on_facebook">Siga-nos no Facebook!</string>
+    <string name="recomend_us_on_google">Recomendaria no Google?</string>
+    <string name="places_must_have_3_digits">Nomes de locais devem ter 3 caracteres ou mais!</string>
+    <string name="please_rate_5_stars">Deslize para baixo para qualificar!</string>
+
+    <string name="important">IMPORTANTE!</string>
+    <string name="running_alert_background_text_1">Para funcionar corretamente, o Localizador de Família precisa de permissão para:\n\n<b>-Auto-iniciar\n-Executar em segundo plano</b></string>
+    <string name="running_alert_background_text_2">Ajuste o Economizador de bateria (ou o Gerenciador de tarefas) para permitir que o Localizador de Família funcione corretamente.</string>
+    <string name="running_alert_background_text_3">Consulte a seção de Ajuda para saber mais.</string>
+    <string name="dont_show_again">não mostrar novamente</string>
+    <string name="checkbox_alert_background_dont_show_again">checkbox_alert_background_dont_show_again</string>
+
+    <string name="textView_bubble">Clique neste ícone para convidar usuários para o seu mapa!</string>
+    <string name="undefined">Indefinido</string>
+    <string name="invite_1">Diga ou envie este código de convite para a pessoa que você deseja adicionar ao seu mapa.</string>
+    <string name="invite_2">Para aceitar seu convite, elas precisam digitar um código que você enviará quando clicar no botão abaixo:</string>
+    <string name="invitation_sent_1">A pessoa que você convidou aparecerá no seu mapa depois de aceitar seu convite.</string>
+    <string name="invitation_sent_2">O convite será aceito através do código:</string>
+    <string name="invitation_sent">Convite!</string>
+    <string name="phone_model">phone_model</string>
+    <string name="real_time_location_system">Real-time Location System</string>
+    <string name="first_execution_after_install">first_execution_after_install</string>
+</resources>
